@@ -37,7 +37,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>GDataXMLNode</string>
+			<string>GDataXMLNode_GIC</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## GDataXMLNode
+## GDataXMLNode_GIC
 
 Copyright (c) 2018 ghwghw4 <dagehaoshuang@163.com>
 

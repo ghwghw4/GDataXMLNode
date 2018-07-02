@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'GDataXMLNode'
+  s.name             = 'GDataXMLNode_GIC'
   s.version          = '0.1.0'
   s.summary          = 'google的xml node的类库改成cocoapods 管理'
 
