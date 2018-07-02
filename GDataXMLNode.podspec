@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GDataXMLNode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GDataXMLNode.'
+  s.summary          = 'google的xml node的类库改成cocoapods 管理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,15 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ghwghw4/GDataXMLNode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
 
   s.source_files = 'GDataXMLNode/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GDataXMLNode' => ['GDataXMLNode/Assets/*.png']
   # }
-
+    s.requires_arc            = false
+    s.compiler_flags          = '-ObjC'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.libraries = 'xml2'
+    s.xcconfig = { 'HEADER_SEARCH_PATHS' => '${SDK_DIR}/usr/include/libxml2' }
 end

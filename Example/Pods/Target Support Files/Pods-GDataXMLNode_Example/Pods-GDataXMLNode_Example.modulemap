@@ -1,0 +1,6 @@
+framework module Pods_GDataXMLNode_Example {
+  umbrella header "Pods-GDataXMLNode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

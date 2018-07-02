@@ -22,7 +22,7 @@ pod 'GDataXMLNode'
 
 ## Author
 
-ghwghw4, dagehaoshuang@163.com
+海伟, 693963124@qq.com
 
 ## License
 
