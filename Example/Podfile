@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GDataXMLNode_Example' do
+  pod 'GDataXMLNode', :path => '../'
+
+  target 'GDataXMLNode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
