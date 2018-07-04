@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GDataXMLNode_GIC'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'google的xml node的类库改成cocoapods 管理'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,6 @@ TODO: Add long description of the pod here.
   #   'GDataXMLNode' => ['GDataXMLNode/Assets/*.png']
   # }
     s.requires_arc            = false
-    s.compiler_flags          = '-ObjC'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
